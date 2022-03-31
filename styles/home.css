@@ -1,10 +1,13 @@
-html{
-    scroll-behavior: smooth;
-}
-
 *{
     margin:0;
     padding: 0;
+}
+
+body{
+    background-color: #FFF7EA;
+    opacity: 0;
+    transition: background-color 1s linear;
+    transition: opacity 1s;
 }
 
 .title{
@@ -12,24 +15,15 @@ html{
     font-size: 6vh;
 }
 
-.section{
-    background-color: #FFF7EA;
-    height: 100vh;
-}
-
-#home{
-    padding-top: 2vh;
-}
-
 header{
     text-align: center;
+    margin-top: 3vh;
     padding: 0 20vw 0 20vw;
     display: flex;
     justify-content: space-evenly;
-
 }
 
-#home button{
+button{
     height: 4vh;
     width: 12vw;
     border: 0;
@@ -41,30 +35,27 @@ header{
     cursor: pointer;
 }
 
-#home-content{
+main{
     margin-top: 20vh;
     display: flex;
     justify-content: center;
     align-items: center ;
 }
 
-#profile-pic-1{
+img{
     height: 42vh;
     margin-right: 5vw;
     border-radius: 50%;
 }
 
 
-#hi{
+#home-text h1{
     margin-bottom: 2vh;
     color: #E19212;
 }
 
-#meet-you{
+#home-text h2{
     color: #005248;
 }
 
-#about{
-    background-color: #005248;
-}
 
