@@ -5,8 +5,6 @@
 
 body{
     background-color: #005248;
-    opacity: 0;
-    transition: opacity 1s;
 }
 
 .title{
@@ -34,21 +32,34 @@ button{
     cursor: pointer;
 }
 
+h1{
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    margin-left: 10vw;
+    font-family: 'Rubik', sans-serif;
+    font-size: 6vh;
+    color: #E19212
+}
+
 main{
-    margin-top: 20vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
     display: flex;
     justify-content: center;
     align-items: center ;
 }
 
 p{
+    margin-right: 10vw;
     text-align: justify;
     font-family: 'Roboto', sans-serif;
+    font-size: 3.8vh;
+    color: white;
     font-weight: 400;
 }
 
 img{
-    height: 42vh;
+    height: 50vh;
     margin-right: 5vw;
     border-radius: 50%;
 }
