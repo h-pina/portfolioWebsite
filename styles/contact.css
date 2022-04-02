@@ -32,7 +32,7 @@ button{
     cursor: pointer;
 
     opacity: 0;
-    transition: .5s linear;
+    transition: opacity .5s linear;
 }
 
 img{
@@ -90,5 +90,20 @@ svg:hover path{
 footer{
     background-color: #005248;
     height: 10vh;
+}
+footer span{
+    padding-top: 2.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vh;
+    font-weight: 700;
+    color: white;
+}
+
+footer img{
+    margin-left: 2vh;
+    height: 6vh;
 }
 
