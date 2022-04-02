@@ -30,6 +30,9 @@ button{
     font-weight: 700;
     font-size: 2vh;
     cursor: pointer;
+
+    opacity: 0;
+    transition: .5s linear;
 }
 
 img{
@@ -58,6 +61,11 @@ h2{
     font-weight: 700;
     font-size: 3vh;
     color:#005248;
+}
+
+a{
+    color:#005248;
+    text-decoration: none;
 }
 
 svg{

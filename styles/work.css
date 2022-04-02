@@ -25,6 +25,9 @@ button{
     font-weight: 700;
     font-size: 2vh;
     cursor: pointer;
+
+    opacity: 0;
+    transition: .5s linear;
 }
 
 h1{

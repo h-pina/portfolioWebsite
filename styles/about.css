@@ -30,6 +30,9 @@ button{
     font-weight: 700;
     font-size: 2vh;
     cursor: pointer;
+
+    opacity: 0;
+    transition: .5s linear;
 }
 
 h1{
@@ -57,10 +60,16 @@ p{
     line-height: 5.5vh;
     color: white;
     font-weight: 400;
+    opacity: 0;
+    transition: opacity .75s linear;
+    
 }
 
 img{
     height: 50vh;
+    margin-top:20vh;
+    opacity: 0;
+    transition: margin-top .5s linear,opacity 1s linear;
     margin-right: 5vw;
     border-radius: 50%;
 }
