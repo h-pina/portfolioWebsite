@@ -53,7 +53,8 @@ p{
     margin-right: 10vw;
     text-align: justify;
     font-family: 'Roboto', sans-serif;
-    font-size: 3.8vh;
+    font-size: 2.8vh;
+    line-height: 5.5vh;
     color: white;
     font-weight: 400;
 }

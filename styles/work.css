@@ -4,12 +4,7 @@
 }
 
 body{
-    background-color: #005248;
-}
-
-.title{
-    font-family: 'Rubik', sans-serif;
-    font-size: 6vh;
+    background-color: #f1eade;
 }
 
 header{
@@ -24,7 +19,7 @@ button{
     height: 4vh;
     width: 12vw;
     border: 0;
-    background-color: #FFF7EA;
+    background-color: #E19212;
     border-radius: 15px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -41,15 +36,46 @@ h1{
     color: #E19212
 }
 
-main{
-    height: 65vh;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    background-color: grey;
+h2{
+    padding-top: 4vh;
+    margin-bottom: 3vh;
+    margin-left: 5vw;
+    margin-bottom: 5vh;
+    font-family: 'Rubik', sans-serif;
+    font-size: 4.5vh;
+    color: white
 }
 
-img{
-    height: 50vh;
+main{
+    height: 65vh;
+    margin-left: 5vw;
     margin-right: 5vw;
-    border-radius: 50%;
+    background-color: #005249;
+    border-radius: 12px;
 }
+
+table{
+    width: 100%;
+    border-spacing: 2vh;
+    overflow: auto;
+}
+
+td,th{
+    text-align: start;
+    border-bottom: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-weight: 400;
+    font-size: 1vw;
+    padding: 1vh;
+}
+
+th{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+}
+
+a{
+    color: white;
+}
+

@@ -32,13 +32,6 @@ button{
     cursor: pointer;
 }
 
-main{
-    margin-top: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center ;
-}
-
 img{
     height: 42vh;
     margin-right: 5vw;
@@ -51,8 +44,43 @@ img{
     color: #E19212;
 }
 
-#home-text h2{
-    color: #005248;
+h1{
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    margin-left: 10vw;
+    font-family: 'Rubik', sans-serif;
+    font-size: 6vh;
+    color: #E19212
+}
+h2{
+    margin-top:2.5vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 3vh;
+    color:#005248;
 }
 
+svg{
+    height: 9vh;
+    width: 9vw
+}
+
+svg:hover path{
+    fill: black;
+}
+
+#icons-container{
+    margin-top: 10vh;
+    margin-left: 7vw;
+    margin-bottom: 16vh;
+    display:grid;
+    grid-template-columns: 1fr 10fr 1fr 10fr;
+    grid-template-rows: 10vh 10vh 10vh;
+    grid-gap: 5vh;
+}
+
+footer{
+    background-color: #005248;
+    height: 10vh;
+}
 
