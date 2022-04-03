@@ -21,7 +21,4 @@ fetch('https://api.github.com/users/h-pina/repos')
             linksIndex++
             rowElementIndex++;
         }
-        
-        
     });
-
